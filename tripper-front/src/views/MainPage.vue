@@ -1,11 +1,19 @@
 <template>
   <div>
-    <h1>mainpage</h1>
+    <h1>메인페이지</h1>
+    <menu-bar></menu-bar>
+    <router-link to="/signup"></router-link>
   </div>
 </template>
 
 <script>
-export default {};
+import menuBar from "@/components/common/MenuBar.vue";
+
+export default {
+  components: {
+    menuBar,
+  },
+};
 </script>
 
 <style></style>
