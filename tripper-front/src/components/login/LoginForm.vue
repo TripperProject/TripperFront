@@ -13,11 +13,6 @@
         <button type="submit">로그인하기</button>
       </div>
     </form>
-    <div id="socialLogin">
-      <span>google login</span><br />
-      <span>kakao login</span><br />
-      <span>naver login</span><br />
-    </div>
     <div>
       <router-link to="/FindId"></router-link>
       <router-link to="/SignUp"></router-link>
