@@ -15,4 +15,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+div {
+  align-items: center;
+}
+</style>

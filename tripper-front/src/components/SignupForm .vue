@@ -1,10 +1,10 @@
 <template>
   <div>
-    <form>
+    <form class="form-container">
       <div>
         <label for="userid"> 아이디 :</label>
         <input type="text" id="userid" />
-        <button id="duplicateCheck">중복확인</button>
+        <button class="btn" id="duplicateCheck">중복확인</button>
       </div>
       <div>
         <label for="password"> 비밀번호 : </label>
@@ -18,7 +18,7 @@
         <span id="certNumSend">인증번호 전송</span>
         <input type="text" id="certNum" />
       </div>
-      <button type="submit">SignUp</button>
+      <button class="btn" type="submit">SignUp</button>
     </form>
   </div>
 </template>
@@ -45,4 +45,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+body {
+  align-content: center;
+}
+.btn {
+  color: white;
+}
+</style>
